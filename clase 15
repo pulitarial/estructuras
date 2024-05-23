@@ -1,0 +1,17 @@
+//ejercicio 1 y 2//
+#include <stdio.h>
+struct consigna_1
+{
+    int num_legajo;
+    char nombre [35];
+    int nota;
+    char fecha_ingreso [8];
+    };
+struct consigna_1 pedro;
+    
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
