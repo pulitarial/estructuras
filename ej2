@@ -1,0 +1,39 @@
+//ej 2//
+#include <stdio.h>
+
+struct fichero
+{
+    char empresa [30];
+    char domicilio[40];
+    char cod_postal[10];
+    char localidad[20];
+    char pais[15];
+    
+}a[2];
+
+int main()
+{
+    int i=0;
+    for(i=0;i<2;i++)
+       { printf("empresa:\n");
+        scanf("%s", &a[i].empresa);
+        printf("domicilio:\n");
+        scanf("%s", &a[i].domicilio);
+        printf("codigo postal:\n");
+        scanf("%s", &a[i].cod_postal);
+        printf("localidad: \n");
+        scanf("%s", &a[i].localidad);
+        printf("pais: \n");
+        scanf("%s", &a[i].pais);
+       }
+    
+    for (i=0;i<2;i++)
+        {printf("empresa: %s\n", a[i].empresa);
+        printf("domicilio: %s\n", a[i].domicilio);
+        printf("cod postal: %s\n", a[i].cod_postal);
+        printf("localidad: %s\n", a[i].localidad);
+        printf("pais: %s\n", a[i].pais);
+        }
+
+    return 0;
+}
